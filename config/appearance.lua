@@ -28,8 +28,6 @@ function M.apply_to_config(config)
   config.font_size = 18.0
   config.color_scheme = color_scheme()
 
-  config.window_background_opacity = 0.80
-  config.macos_window_background_blur = 20
   config.window_padding = { left = 8, right = 8, top = 8, bottom = 8 }
 
   config.enable_tab_bar = false
