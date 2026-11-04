@@ -24,8 +24,8 @@ end
 function M.apply_to_config(config)
   wezterm.add_to_config_reload_watch_list(style_file)
 
-  config.font = wezterm.font 'JetBrainsMono Nerd Font'
-  config.font_size = 20.0
+  config.font = wezterm.font('JetBrainsMono Nerd Font', { weight = 'DemiBold' })
+  config.font_size = 22.0
   config.color_scheme = color_scheme()
 
   config.window_padding = { left = 8, right = 8, top = 8, bottom = 8 }
